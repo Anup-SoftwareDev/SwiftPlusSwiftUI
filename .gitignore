@@ -1,0 +1,91 @@
+# Xcode
+.DS_Store
+*/.DS_Store
+**/.DS_Store
+*.swp
+*.swo
+*.xcuserstate
+project.xcworkspace
+xcuserdata
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.perspectivev3
+!default.perspectivev3
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+*.playground
+!default.playground
+*.playground/
+!default.playground/
+*.playground.dSYM
+!default.playground.dSYM
+*.playground.dSYM/
+!default.playground.dSYM/
+*.playground.dSYM/**/*.plist
+!default.playground.dSYM/**/*.plist
+*.xcworkspace
+!default.xcworkspace
+*.xcworkspace/
+!default.xcworkspace/
+xcshareddata/
+*.xcscmblueprint
+*.xcodeproj/
+*.xcodeproj/*.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+.swiftpm/xcode/package.xcworkspace
+.swiftpm/xcode/xcuserdata
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+Cartfile.resolved
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Others
+*.log
+*.tmp
+*.temp
+*.o
+*.out
+*.history
+*.vdi
+*.swp
+*.swo
+*.lock
+*.plist
+*.generated.swift
+*.generated.swift.rsp
+
+# Ignore Mac OS X temporary files
+._*
+
+# Ignore user-specific Xcode Workspace settings
+xcuserdata/
