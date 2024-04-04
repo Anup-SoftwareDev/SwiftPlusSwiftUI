@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     let label = UILabel()
+    let labelInOriginal = UILabel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +19,14 @@ class ViewController: UIViewController {
         NSLayoutConstraint.activate([
             label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             label.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+        ])
+        view.addSubview(labelInOriginal)
+        labelInOriginal.text = "LabelInOriginal"
+        labelInOriginal.textColor = .red
+        labelInOriginal.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            labelInOriginal.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            labelInOriginal.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -40)
         ])
     }
 
